@@ -206,6 +206,7 @@ h2 {
 
 .blog-left p {
   font-size: 17px;
+  margin-bottom: 30px;
 }
 
 .img-right {
@@ -218,6 +219,46 @@ h2 {
 .blog-btn {
   border: 1px solid #f4f4f4;
   border-radius: 5%;
-  padding: 10px 30px;
+  padding: 15px 30px;
+  font-size: 17px;
+}
+
+#team-section {
+  color: #333;
+}
+
+.team-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 3.5em;
+  padding: 40px;
+}
+
+.team-header h1 {
+  font-size: 45px;
+}
+
+.team-header p {
+  font-size: 18px;
+}
+
+.team-img {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  line-height: 2em;
+  padding-bottom: 50px;
+}
+
+.team-img img {
+  border-radius: 50%;
+  width: 100%;
+  display: flex;
+  margin: 0 30px;
+  width: 90%;
+}
+
+.team-img p {
   font-size: 17px;
 }
