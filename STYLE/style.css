@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  color: #fff;
+}
+
+#headline {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url(../IMAGES/image_resources/home/showcase.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.primary-text {
+  color: #248a3b;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 10px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+ul li a {
+  margin: 20px;
+  padding: 10px;
+}
+
+.content h1 {
+  font-size: 60px;
+}
+
+.content h3 {
+  font-size: 25px;
+}
+
+.content h1,
+h2 {
+  margin: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 180px;
+}
+
+.content .btn {
+  background-color: #248a3b;
+  width: 10%;
+  border-radius: 5%;
+  margin: 20px auto;
+  font-size: 18px;
+  text-align: center;
+  padding: 15px;
+}
+
+#about-icons {
+  color: #333;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: row;
+  justify-content: center space-between;
+  text-align: center;
+  padding: 50px;
+  line-height: 1.9em;
+}
+
+#about-icons i {
+  color: #fff;
+  background-color: #248a3b;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+#about-icons h3 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#about-icons p {
+  font-size: 18px;
+}
+
+#section1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  height: 70vh;
+}
+
+.img-left {
+  background-image: url(../IMAGES/image_resources/home/people.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+}
+
+.info-right {
+  display: flex;
+  background-color: #28a745;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: center;
+  padding: 5px 20px 20px 30px;
+  line-height: 1.7em;
+}
+
+.info-right h1 {
+  font-size: 40px;
+  margin: 15px 0 20px 0;
+}
+
+.info-right p {
+  font-size: 18px;
+}
+
+.info-btn {
+  border: 1px solid #fff;
+  padding: 10px;
+  width: 20%;
+  border-radius: 5%;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#photo-section {
+  color: #333;
+  height: 100vh;
+}
+
+.photosec-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px;
+  line-height: 3.5em;
+}
+
+.photosec-head h1 {
+  font-size: 45px;
+}
+
+.photosec-head p {
+  font-size: 18px;
+}
+
+#photo-list {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+}
+
+#photo-list img {
+  display: flex;
+  flex-direction: column;
+  width: 23vw;
+  margin: 5px;
+}
+
+#blog-section {
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.blog-left {
+  background-color: #0284d0;
+  width: 50%;
+  padding: 150px 30px;
+  line-height: 1.7em;
+}
+
+.blog-left h1 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.blog-left p {
+  font-size: 17px;
+}
+
+.img-right {
+  background-image: url(../IMAGES/image_resources/home/blog.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
+.blog-btn {
+  border: 1px solid #f4f4f4;
+  border-radius: 5%;
+  padding: 10px 30px;
+  font-size: 17px;
+}
